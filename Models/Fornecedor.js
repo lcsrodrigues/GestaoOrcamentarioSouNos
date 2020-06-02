@@ -15,3 +15,5 @@ const Fornecedor = db.define('FORNECEDOR',{
         type:Sequelize.TEXT
     }
 })
+
+module.exports = Fornecedor;

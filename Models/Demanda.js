@@ -3,7 +3,8 @@ const db = require("./../Connection/db")
 
 const Demanda = db.define('DEMANDA',{
     DEMANDA:{
-        type:Sequelize.STRING
+        type:Sequelize.STRING,
+        require:true
     },
     DATA_INICIO:{
         type:Sequelize.DATE
