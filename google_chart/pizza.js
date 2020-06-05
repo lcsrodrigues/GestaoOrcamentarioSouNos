@@ -21,7 +21,7 @@
 
                 // Set chart options
                 var options = {'title':'How Much Pizza I Ate Last Night',
-                            'width':400,
+                            'width':380,
                             'height':250};
 
                 // Instantiate and draw our chart, passing in some options.
