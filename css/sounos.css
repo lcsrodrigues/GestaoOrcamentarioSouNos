@@ -249,6 +249,11 @@ nav ul li i {
     margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 50px;
+    padding: 0 20px;
     border-radius: 10px;
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+#barras_hor_div {
+    height: 430px;
 }
