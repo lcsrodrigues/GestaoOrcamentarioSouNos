@@ -13,6 +13,7 @@ body {
 
 header {
     width: 100%;
+    min-width: 1200px;
     height: 50px;
     background-color: #FFF;
     margin-bottom: 20px;
@@ -21,10 +22,10 @@ header {
 }
 
 .container_header {
-    width: 1200px;
+    width: 100%;
     margin: auto;
     padding: 10px 20px;
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
 }
@@ -87,7 +88,7 @@ nav {
     width: 20px;
     color: #8b8b8b;
     position: absolute;
-    top: 140px;
+    top: 150px;
     right: 10px;
     cursor: pointer;
     z-index: 1000;
@@ -96,6 +97,7 @@ nav {
 
 nav ul {
     list-style-type: none;
+    margin-top: 30px;
 }
 nav ul li {
     cursor: pointer;
@@ -218,7 +220,8 @@ nav ul li i {
     font-size: 24px;
     text-align: center;
     font-weight: normal;
-    margin-top: 8px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .ctrl_ativ {
@@ -231,6 +234,7 @@ nav ul li i {
     float: left;
     margin-left: 25px;
     padding: 0 20px;
+    position: relative;
 }
 
 .ctrl_ativ:first-child {

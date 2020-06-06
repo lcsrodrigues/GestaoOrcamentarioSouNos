@@ -4,33 +4,33 @@ google.charts.load('current', {'packages':['corechart', 'bar']});
       function drawStuff() {
 
         var button = document.getElementById('change-chart');
-        var chartDiv = document.getElementById('barras_div');
+        var chartDiv = document.getElementById('barras_ver_div');
 
         var data = google.visualization.arrayToDataTable([
-          ['Galaxy', 'Distance', 'Brightness'],
-          ['Canis Major Dwarf', 8000, 23.3],
-          ['Sagittarius Dwarf', 24000, 4.5],
-          ['Ursa Major II Dwarf', 30000, 14.3],
-          ['Lg. Magellanic Cloud', 50000, 0.9],
-          ['Bootes I', 60000, 13.1]
+          /*'NomeDoGráfico', 'Cor az', 'Cor Ver' */ ['', '', ''],
+          ['Janeiro', 8000, 23.3],
+          ['Fevereiro', 24000, 4.5],
+          ['Março', 30000, 14.3],
+          ['Abril', 50000, 0.9],
+          ['Maio', 60000, 13.1]
         ]);
 
         var materialOptions = {
           width: 380,
-          chart: {
-            title: 'Nearby galaxies',
-            subtitle: 'distance on the left, brightness on the right'
-          },
-          series: {
-            0: { axis: 'distance' }, // Bind series 0 to an axis named 'distance'.
-            1: { axis: 'brightness' } // Bind series 1 to an axis named 'brightness'.
-          },
-          axes: {
-            y: {
-              distance: {label: 'parsecs'}, // Left y-axis.
-              brightness: {side: 'right', label: 'apparent magnitude'} // Right y-axis.
-            }
-          }
+          // chart: {
+          //   title: 'Nearby galaxies',
+          //   subtitle: 'distance on the left, brightness on the right'
+          // },
+          // series: {
+          //   0: { axis: 'distance' }, // Bind series 0 to an axis named 'distance'.
+          //   1: { axis: 'brightness' } // Bind series 1 to an axis named 'brightness'.
+          // },
+          // axes: {
+          //   y: {
+          //     distance: {label: 'parsecs'}, // Left y-axis.
+          //     brightness: {side: 'right', label: 'apparent magnitude'} // Right y-axis.
+          //   }
+          // }
         };
 
         var classicOptions = {
