@@ -5,7 +5,8 @@
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin-left: 30px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     float: left;    
     position: relative;
     left: 0;
@@ -14,6 +15,7 @@
 
 .info_pesquisa {
     height: 30px;
+    margin: 0 30px 0 30px;
     position: relative;
 }
 
@@ -24,7 +26,7 @@
     color: #8b8b8b;
 }
 .busca_area {
-    width: 215px;
+    width: 225px;
     position: absolute;
     top: 6px;
     right: 0;
@@ -34,16 +36,20 @@
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     margin-top: 2px;
-    margin-right: 10px;
+    margin-right: 20px;
     padding-bottom: 2px;
     padding-left: 20px;
     border-top: none;
     border-right: none;
-    border-bottom: 1px #8b8b8b solid;
+    border-bottom: 1.5px #000 solid;
     border-left: none;
     float: left;
     outline: none;
     background: url(../images/lupa.svg) no-repeat;
+}
+
+.form_text_seach input::-webkit-input-placeholder {
+    color: #c4c4c4;
 }
 
 .plus {
@@ -56,7 +62,7 @@
 .titulo_id {
     width: 100%;
     height: 50px;
-    margin-top: 65px;
+    margin: 65px 30px 0 30px;
     float: left;
 }
 
@@ -71,4 +77,59 @@
     position: absolute;
     right: 30px;
     margin-right: 0;
+}
+
+.item_lista_forn {
+    width: 850px;
+    height: 50px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.item_lista_forn .itens:hover {
+    outline: 1px rgba(0, 0, 0, 0.1) solid;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.icon_acoes {
+    height: 50px;
+    margin-left: 30px;
+    padding-top: 13px;
+    float: left;
+}
+
+.icon_acoes img:first-child {
+    margin-right: 10px;
+}
+
+.icon_acoes img {
+    cursor: pointer;
+}
+
+.nome_forn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 70px;
+    display: inline-block;
+}
+.area_forn {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.data_forn {
+    width: 150px;
+    height: 50px;
+    text-align: right;
+    padding-top: 15px;
+    margin-left: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
 }
