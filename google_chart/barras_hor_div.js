@@ -5,11 +5,11 @@ function drawBasic() {
 
       var data = google.visualization.arrayToDataTable([
         [' ', ' ',],
-        ['Tarefa 1', 8175000],
-        ['Tarefa 2', 3792000],
-        ['Tarefa 3', 2695000],
-        ['Tarefa 4', 2099000],
-        ['Tarefa 5', 1526000]
+        ['Tarefa 1', 5],
+        ['Tarefa 2', 10],
+        ['Tarefa 3', 15],
+        ['Tarefa 4', 20],
+        ['Tarefa 5', 25]
       ]);
 
       var options = {

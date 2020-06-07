@@ -1,0 +1,72 @@
+.container2 {
+    width: 850px;
+    height: 600px;
+    background-color: #FFF;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 30px;
+    float: left;    
+    position: relative;
+    left: 0;
+}
+
+
+.info_pesquisa {
+    height: 30px;
+    position: relative;
+}
+
+.titulo_h2_sub_pag {
+    position: absolute;
+    font-size: 24px;
+    font-weight: normal;
+    color: #8b8b8b;
+}
+.busca_area {
+    width: 207px;
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+
+.form_text_seach input{
+    margin-top: 2px;
+    margin-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px #8b8b8b solid;
+    border-left: none;
+    float: left;
+    outline: none;
+    background: url(../images/lupa.svg) no-repeat;
+}
+
+.plus {
+    width: 20px;
+    margin-top: 1.5px;
+    cursor: pointer;
+    float: left;
+}
+
+.titulo_id {
+    width: 100%;
+    height: 50px;
+    margin-top: 65px;
+    float: left;
+}
+
+.titulo_id h3 {
+    color: #8b8b8b;
+    font-size: 18px;
+    font-weight: normal;
+    float: left;
+    margin-right: 147px;
+}
+.titulo_id h3:last-child {
+    position: absolute;
+    right: 30px;
+    margin-right: 0;
+}
