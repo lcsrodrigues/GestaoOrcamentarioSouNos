@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Fornecedores</title>
     <link rel="stylesheet" type=" text/css" href="../css/sounos.css">
-    <link rel="stylesheet" type=" text/css" href="../css/style_list_consulta.css">
-    <link rel="stylesheet" type=" text/css" href="../css/style_form.css">
+    <link rel="stylesheet" type=" text/css" href="../css/style_list_fornecedore.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c292e26a0d.js" crossorigin="anonymous"></script>
 </head>
@@ -29,46 +28,29 @@
             <i class="fas fa-cog img_perfil_config"></i>
             <ul>
                 <a href="../index.html">
-                    <li>
-                        Início
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
+                    <li><span>Início</span><i class="fas fa-chevron-down"></i></li>
                 </a>
                 <a href="../paginas/cad_fornecedores.html">
-                    <li>
-                        Cadastro de fornecedores
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
+                    <li><span>Cadastro de fornecedores</span><i class="fas fa-chevron-down"></i></li>
                 </a>
                 <a href="../paginas/orcamentos.html">
-                    <li>
-                        Orçamentos
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
+                    <li><span>Orçamentos</span><i class="fas fa-chevron-down"></i></li>
                 </a>
                 <a href="../paginas/mat_contrucao.html">
-                    <li>
-                        Material de construção
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
+                    <li><span>Material de construção</span><i class="fas fa-chevron-down"></i></li>
                 </a>
-                <a href="../paginas/mao_obra.html">
-                    <li>
-                        Mão de obra
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
+                <a  class="hover_menu" href="../paginas/mao_obra.html">
+                    <li><span>Mão de obra</span><i class="fas fa-chevron-down"></i></li>
                 </a>
+                    <ul class="sub_menu">
+                        <li><a href="#"><span>Profissionais</span></a><i class="fas fa-chevron-down"></i></li>
+                        <li><a href="#"><span>Demandas</span></a><i class="fas fa-chevron-down"></i></li>
+                    </ul>
                 <a href="../paginas/relatorios.html">
-                    <li>
-                        Relatórios
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
+                    <li><span>Relatórios</span><i class="fas fa-chevron-down"></i></li>
                 </a>
                 <a href="../paginas/dashboard.html">
-                    <li>
-                        Dashboard
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
+                    <li><span>Dashboard</span><i class="fas fa-chevron-down"></i></li>
                 </a>
             </ul>
         </nav>
@@ -89,10 +71,10 @@
                 </div>
             </div>
             <div class="titulo_id">
-                <h3>Ações</h3>
-                <h3>Nome</h3>
-                <h3>Area de atuação</h3>
-                <h3>Data</h3>
+                <h3 class="larg_forn">Ações</h3>
+                <h3 class="larg_forn">Nome</h3>
+                <h3 class="larg_forn">Area de atuação</h3>
+                <h3 class="larg_forn">Data</h3>
             </div>
             <div class="item_lista_forn">
                 <div class="itens">

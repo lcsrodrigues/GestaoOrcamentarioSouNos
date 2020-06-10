@@ -60,23 +60,31 @@
 }
 
 .titulo_id {
-    width: 100%;
+    width: 850px;
     height: 50px;
-    margin: 65px 30px 0 30px;
+    margin: 65px 0 0 0;
     float: left;
 }
 
-.titulo_id h3 {
+.titulo_id .larg_forn {
+    width: 250px;
     color: #8b8b8b;
     font-size: 18px;
     font-weight: normal;
+    text-align: left;
+    padding-left: 50px;
     float: left;
-    margin-right: 147px;
 }
-.titulo_id h3:last-child {
-    position: absolute;
-    right: 30px;
-    margin-right: 0;
+
+.titulo_id .larg_forn:first-child {
+    width: 175px;
+    text-align: left;
+    padding-left: 30px;
+}
+.titulo_id .larg_forn:last-child {
+    width: 175px;
+    text-align: center;
+    padding-right: 30px;
 }
 
 .item_lista_forn {
@@ -114,12 +122,13 @@
     margin-left: 70px;
     display: inline-block;
 }
+
 .area_forn {
     width: 250px;
     height: 50px;
     text-align: center;
     padding-top: 15px;
-    margin-left: 10px;
+    margin-left: 60px;
     display: inline-block;
 }
 

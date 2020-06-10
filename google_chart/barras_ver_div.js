@@ -51,15 +51,6 @@ function drawStuff() {
   function drawMaterialChart() {
     var materialChart = new google.charts.Bar(chartDiv);
     materialChart.draw(data, google.charts.Bar.convertOptions(materialOptions));
-    button.innerText = 'Change to Classic';
-    button.onclick = drawClassicChart;
-  }
-
-  function drawClassicChart() {
-    var classicChart = new google.visualization.ColumnChart(chartDiv);
-    classicChart.draw(data, classicOptions);
-    button.innerText = 'Change to Material';
-    button.onclick = drawMaterialChart;
   }
 
   drawMaterialChart();
