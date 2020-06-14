@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Material de construção</title>
+    <title>Cadastro de Fornecedores</title>
     <link rel="stylesheet" type=" text/css" href="../css/index.css">
     <link rel="stylesheet" type=" text/css" href="../css/style_list_fornecedore.css">
-    <link rel="stylesheet" type=" text/css" href="../css/style_list_orcamentos.css">
+    <link rel="stylesheet" type=" text/css" href="../css/style_form_fornecedores.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c292e26a0d.js" crossorigin="anonymous"></script>
 </head>
@@ -57,7 +57,7 @@
         </nav>
         <div class="container2">
             <div class="info_pesquisa">
-                <h2 class="titulo_h2_sub_pag">Material de construção</h2>
+                <h2 class="titulo_h2_sub_pag">Fornecedores</h2>
                 <div class="busca_area">
                     <form class="form_text_seach">
                         <input list="fornecedores" placeholder="Procurar">
@@ -71,46 +71,18 @@
                     <img class="plus" src="../images/plus.svg" alt="">
                 </div>
             </div>
-            <div class="titulo_id">
-                <h3 class="larg_orc">Ações</h3>
-                <h3 class="larg_orc">Nome</h3>
-                <h3 class="larg_orc">Fornecedor</h3>
-                <h3 class="larg_orc">Preço</h3>
-                <h3 class="larg_orc">Data da compra</h3>
-            </div>
-            <div class="item_lista_forn">
-                <div class="itens">
-                    <div class="icon_acoes">
-                        <img src="../images/lixo.svg" alt="">
-                        <img src="../images/lapis.svg" alt="">
-                    </div>
-                        <span class="serv_orc">Lorem Ipsum</span>
-                        <span class="prof_orc">Dolor Sit</span>
-                        <span class="prec_orc">R$100,00</span>
-                        <span class="data_orc">26/05/2020</span>
+            <form class="form_cad">
+                <input type="text" placeholder="Fornecedor">
+                <input type="date" placeholder="Data">
+                <input type="text" placeholder="Area de atuação">
+                <textarea name="Observações" rows="10" cols="30" placeholder="Observações"></textarea>
+                <div class="btn_form">                
+                    <input type="button" value="Cancelar">
+                    <input type="submit" value="Salvar">
                 </div>
-                <div class="itens">
-                    <div class="icon_acoes">
-                        <img src="../images/lixo.svg" alt="">
-                        <img src="../images/lapis.svg" alt="">
-                    </div>
-                        <span class="serv_orc">Lorem Ipsum</span>
-                        <span class="prof_orc">Dolor Sit</span>
-                        <span class="prec_orc">R$100,00</span>
-                        <span class="data_orc">26/05/2020</span>
-                </div>
-                <div class="itens">
-                    <div class="icon_acoes">
-                        <img src="../images/lixo.svg" alt="">
-                        <img src="../images/lapis.svg" alt="">
-                    </div>
-                        <span class="serv_orc">Lorem Ipsum</span>
-                        <span class="prof_orc">Dolor Sit</span>
-                        <span class="prec_orc">R$100,00</span>
-                        <span class="data_orc">26/05/2020</span>
-                </div>
-            </div>
+            </form>
         </div>
     </div>
+
 </body>
 </html>
